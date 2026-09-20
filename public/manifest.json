@@ -1,0 +1,13 @@
+{
+  "name": "SimpleMMO",
+  "short_name": "SimpleMMO",
+  "description": "Idle Play2Earn MMO — train, fight, trade.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a12",
+  "theme_color": "#0a0a12",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

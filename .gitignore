@@ -1,0 +1,51 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# next.js
+/.next/
+/out/
+*.tsbuildinfo
+next-env.d.ts
+
+# testing
+/coverage
+/playwright-report/
+/test-results/
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files (SECRETS - never commit)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# vercel
+.vercel
+
+# supabase
+supabase/.branches
+supabase/.temp
+supabase/config.toml.bak
+
+# pwa
+public/sw.js
+public/sw.js.map
+public/workbox-*.js
+public/workbox-*.js.map

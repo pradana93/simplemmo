@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0a0a12;
+  --foreground: #f2f2f7;
+  --card: #14141f;
+  --card-border: #26263a;
+  --accent: #f5c518;
+  --accent-2: #7c5cff;
+  --success: #22c55e;
+  --danger: #ef4444;
+  --muted: #8e8ea3;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  overscroll-behavior-y: none;
+}
+
+a,
+button {
+  min-height: 44px;
+}
+
+button {
+  touch-action: manipulation;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.game-card {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: 16px;
+}
+
+.text-muted {
+  color: var(--muted);
+}
+
+.gold-text {
+  color: var(--accent);
+}
+
+.shard-text {
+  color: var(--accent-2);
+}
